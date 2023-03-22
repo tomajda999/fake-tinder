@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "short_name": "Hello",
+  "name": "Fake Tinder",
+  "short_name": "Tinder",
   "icons": [{
     "src": "images/icon-128.png",
       "sizes": "128x128",
