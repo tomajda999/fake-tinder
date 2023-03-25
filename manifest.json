@@ -1,34 +1,24 @@
 {
+  "author": "pablorotten",
   "name": "Fake Tinder",
   "short_name": "Tinder",
-  "icons": [{
-    "src": "images/tinder-icon.png",
-      "sizes": "128x128",
+  "description": "Fake app for April fools.",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/512.png",
+      "sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
       "type": "image/png"
-    }, {
-      "src": "images/tinder-icon.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }, {
-      "src": "images/tinder-icon.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    }, {
-      "src": "images/tinder-icon.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }, {
-      "src": "images/tinder-icon.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }, {
-      "src": "images/tinder-icon.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }],
+    }
+  ],
+  "manifest_version": 2,
+  "version": "0.1",
   "lang": "en-US",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "white",
-  "theme_color": "white"
+  "theme_color": "white",
+  "scope": "/app/",
+  "start_url": "/app/",
+  "display": "standalone"
 }
