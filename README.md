@@ -14,15 +14,15 @@ iPhone:
 3. Share 
 4. Add to home screen
 
-![iPhone installation](images/iphone-installation.jpeg)
+![iPhone installation](images/iphone-installation-1.jpeg)
+![iPhone installation](images/iphone-installation-2.jpeg)
 
 Android:
 1. Open Chrome
 2. Go to https://pablorotten.github.io/fake-tinder/
 3. Option 1: Tap on the button "Add Tinder to home screen"
-4. Option 2: Tap on ... menu and "Install app" (⚠️remember, is not a real app, just a web page)
-
 ![Option 1](images/android-installation-1.jpeg)
+4. Option 2: Tap on ... menu and "Install app" (⚠️remember, is not a real app, just a web page)
 ![Option 2](images/android-installation-2.jpeg)
 
 Now you have your **fake** Tinder app on your home screen:
