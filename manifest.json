@@ -1,8 +1,8 @@
 {
 	"author": "J.Fechner",
-	"name": "Fake Tinder",
-	"short_name": "Fake Tinder",
-	"description": "Fake Tinder.",
+	"name": "Tinder",
+	"short_name": "Tinder",
+	"description": "Tinder.",
 	"orientation": "portrait",
 	"start_url": "/fake-tinder/",
 	"scope": "/fake-tinder/",
