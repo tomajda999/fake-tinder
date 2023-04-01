@@ -4,12 +4,12 @@
 let imgCount = 0
 const cloudUrl = 'https://djjjk9bjm164h.cloudfront.net/'
 const data = [
-  {img: `images/calamardo.jpeg`, name: 'Calamardo', price: '0', distance: '6'},
-  {img: `images/amongus-border1.gif`, name: 'Among us', price: '0', distance: '12'},
-  {img: `images/mikeohearn.webp`, name: 'Mike', price: '0', distance: '3'},
-  {img: `images/gigachad.jpeg`, name: 'Chad', price: '0', distance: '13'},
-  {img: `images/wild.jpeg`, name: 'Jordi', price: '0', distance: '23'},
-  {img: `images/alo.jpeg`, name: 'Fernan', price: '0', distance: '11'},
+  {img: `images/calamardo.jpeg`, name: 'Squidlove', age: '45', distance: '6'},
+  {img: `images/amongus-border1.gif`, name: 'Suspisus', age: '18', distance: '12'},
+  {img: `images/mikeohearn.webp`, name: 'Mike', age: '39', distance: '3'},
+  {img: `images/gigachad.jpeg`, name: 'Chad', age: '30', distance: '13'},
+  {img: `images/wild.jpeg`, name: 'Jordi', age: '25', distance: '23'},
+  {img: `images/alo.jpeg`, name: 'Fernanlove', age: '40', distance: '11'},
 
 ]
 const frame = document.body.querySelector('.frame')
@@ -41,9 +41,10 @@ function appendCard(data) {
           <div class="bottom">
             <div class="title">
               <span>${data.name}</span>
+              <span>${data.age}</span>
             </div>
             <div class="info">
-              ${data.distance} Kms away
+              ${data.distance} miles away
             </div>
           </div>
         `
