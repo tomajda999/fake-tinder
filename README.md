@@ -24,7 +24,7 @@ Android:
 ![Option 1](images/android-installation-1.jpeg)
 4. Option 2: Tap on ... menu and "Install app" (⚠️remember, is not a real app, just a web page)
 ![Option 2](images/android-installation-2.jpeg)
-
+-----
 Now you have your **fake** Tinder app on your home screen:
 ![app installed](images/result.jpeg)
 
