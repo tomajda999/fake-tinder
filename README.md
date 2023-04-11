@@ -4,7 +4,7 @@ Fake Tinder Progressive Web App (PWA)
 
 Make your partner mad by pretending you have Tinder installed on your phone 🔥🔥🔥
 
-⚠️No app is installed!!!️It's just a link to a web page on your home screen. Once you open the app, the trick will be revealed. Have a good night on your couch!! 🛋️
+⚠️No app is installed!!!️ It's just a link to a web page on your home screen. Once you open the app, the trick will be revealed.
 
 ## Installation
 
