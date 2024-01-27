@@ -14,6 +14,7 @@ const profiles = [
   {img: `images/profiles/vegeta.png`, name: 'Vegeta', age: '44', distance: '21'},
   {img: `images/profiles/werewolf.png`, name: 'Lobo', age: '18', distance: '1'},
   {img: `images/profiles/qr.png`, name: 'link'},
+  {img: `images/profiles/qr.png`, name: 'link'},
 
 ]
 const frame = document.body.querySelector('.frame')
@@ -27,7 +28,6 @@ initCard(current)
 document.querySelector('#like').onclick = () => {
   moveX = 1
   moveY = 0
-  console.log("like!!!!")
   complete()
 }
 document.querySelector('#hate').onclick = () => {
@@ -36,7 +36,6 @@ document.querySelector('#hate').onclick = () => {
   complete()
 }
 document.querySelector('#link').onclick = () => {
-  console.log("Link!!!!")
   window.open(`https://${appLink}`, "_blank");
 }
 
@@ -49,7 +48,7 @@ function appendCard(profile) {
           <div class="is-like">LIKE</div>
           <div class="bottom">
             <div class="title">
-              ${profile.name === 'link' ? `<span><a href="" id="link">${appLink}<span></a>` : `<span>${profile.name}</span><span>${profile.age}</span>`}
+              ${profile.name === 'link' ? `<span><a href="https://${appLink}" id="link">${appLink}<span></a>` : `<span>${profile.name}</span><span>${profile.age}</span>`}
             </div>
             <div class="info">
               ${profile.name !== 'link' ? `${profile.distance} miles away` : ``}
