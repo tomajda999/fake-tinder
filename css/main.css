@@ -164,6 +164,14 @@ html, body {
   margin-right: 0.2em;
 }
 
+.card .bottom .title > span:nth-child(1) > a{
+  font-size: 0.7em;
+  /*z-index: 1;*/
+  overflow: hidden;
+  position: relative;
+}
+
+
 .card .bottom .title > span:nth-child(2) {
   font-size: clamp(13px, 1.5em, 25px);
 }

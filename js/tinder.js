@@ -2,8 +2,8 @@
 // Tinder
 
 let imgCount = 0
-const cloudUrl = 'https://djjjk9bjm164h.cloudfront.net/'
-const data = [
+const appLink = 'pablorotten.github.io/fake-tinder/'
+const profiles = [
   {img: `images/profiles/calamardo.jpeg`, name: 'Squid', age: '45', distance: '6'},
   {img: `images/profiles/amongus-border1.gif`, name: 'Suspisus', age: '19', distance: '12'},
   {img: `images/profiles/gigachad.jpeg`, name: 'Chad', age: '30', distance: '13'},
@@ -13,10 +13,11 @@ const data = [
   {img: `images/profiles/piggy.png`, name: 'Piggy', age: '39', distance: '51'},
   {img: `images/profiles/vegeta.png`, name: 'Vegeta', age: '44', distance: '21'},
   {img: `images/profiles/werewolf.png`, name: 'Lobo', age: '18', distance: '1'},
+  {img: `images/profiles/qr.png`, name: 'link'},
 
 ]
 const frame = document.body.querySelector('.frame')
-data.forEach(_data => appendCard(_data))
+profiles.forEach(profile => appendCard(profile))
 
 let current = frame.querySelector('.card:last-child')
 let likeText = current.children[0]
@@ -26,6 +27,7 @@ initCard(current)
 document.querySelector('#like').onclick = () => {
   moveX = 1
   moveY = 0
+  console.log("like!!!!")
   complete()
 }
 document.querySelector('#hate').onclick = () => {
@@ -33,21 +35,24 @@ document.querySelector('#hate').onclick = () => {
   moveY = 0
   complete()
 }
+document.querySelector('#link').onclick = () => {
+  console.log("Link!!!!")
+  window.open(`https://${appLink}`, "_blank");
+}
 
-function appendCard(data) {
+function appendCard(profile) {
   const firstCard = frame.children[0]
   const newCard = document.createElement('div')
   newCard.className = 'card'
-  newCard.style.backgroundImage = `url(${data.img})`
+  newCard.style.backgroundImage = `url(${profile.img})`
   newCard.innerHTML = `
           <div class="is-like">LIKE</div>
           <div class="bottom">
             <div class="title">
-              <span>${data.name}</span>
-              <span>${data.age}</span>
+              ${profile.name === 'link' ? `<span><a href="" id="link">${appLink}<span></a>` : `<span>${profile.name}</span><span>${profile.age}</span>`}
             </div>
             <div class="info">
-              ${data.distance} miles away
+              ${profile.name !== 'link' ? `${profile.distance} miles away` : ``}
             </div>
           </div>
         `
@@ -101,7 +106,7 @@ function complete() {
   if (next) initCard(next)
   current = next
   likeText = current.children[0]
-  appendCard(data[imgCount % data.length])
+  appendCard(profiles[imgCount % profiles.length])
   setTimeout(() => frame.removeChild(prev), innerWidth)
 }
 
