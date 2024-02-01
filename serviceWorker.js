@@ -4,7 +4,7 @@
 		1) cacheAll = true 		=> Cache all requests in urlsToCache list and all further requests
 		2) cacheAll = false 	=> Cache only all requests in urlsToCache list
 */
-const version = "1.3"
+const version = "1.4"
 let cacheAll = false;
 var CACHE_NAME = 'fake-tinder-cache';
 var urlsToCache = [
@@ -14,7 +14,8 @@ var urlsToCache = [
     '/fake-tinder/manifest.json',
     '/fake-tinder/css/main.css',
     '/fake-tinder/js/main.js',
-    '/fake-tinder/js/jquery.min.js'
+    '/fake-tinder/js/jquery.min.js',
+    '/fake-tinder/js/notify.js'
 ];
 var urlsNotToCache = [
     // Urls that don't need to be cached can be added here explicitly
