@@ -4,16 +4,11 @@
 let imgCount = 0
 const appLink = 'tomajda999.github.io/fake-tinder'
 const profiles = [
-  {img: `images/profiles/Ada.jpg`, name: 'Ada', age: '19', distance: '12'},
+  {img: `images/profiles/Ada.jpg`, name: 'Áďa', age: '19', distance: '12'},
   {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: '6'},
-  {img: `images/profiles/Kacka.jpg`, name: 'Kačka', age: '17', distance: '13'},
-  {img: `images/profiles/alo.jpeg`, name: 'Fernanlove', age: '40', distance: '11'},
-  {img: `images/profiles/m&m.png`, name: 'Miss M&M', age: '23', distance: '5'},
-  {img: `images/profiles/broly.png`, name: 'Broly', age: '31', distance: '13'},
-  {img: `images/profiles/piggy.png`, name: 'Piggy', age: '39', distance: '51'},
-  {img: `images/profiles/vegeta.png`, name: 'Vegeta', age: '44', distance: '21'},
-  {img: `images/profiles/werewolf.png`, name: 'Lobo', age: '18', distance: '1'},
-  {img: `images/profiles/qr.png`, name: 'link'},
+  {img: `images/profiles/Kacka.jpg`, name: 'Kateřina', age: '23', distance: '13'},
+  {img: `images/profiles/Eli.jpg`, name: 'Eliška', age: '19', distance: '11'},
+  {img: `images/profiles/Katka.png`, name: 'Kačka', age: '23', distance: '5'},
 ]
 
 const frame = document.body.querySelector('.frame')
