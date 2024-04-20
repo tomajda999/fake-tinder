@@ -4,9 +4,9 @@
 let imgCount = 0
 const appLink = 'tomajda999.github.io/fake-tinder'
 const profiles = [
-  {img: `images/profiles/Adam.jpg`, name: 'Squid', age: '45', distance: '6'},
-  {img: `images/profiles/Ada.jpg`, name: 'Suspisus', age: '19', distance: '12'},
-  {img: `images/profiles/Kacka.jpg`, name: 'Chad', age: '30', distance: '13'},
+  {img: `images/profiles/Ada.jpg`, name: 'Ada', age: '19', distance: '12'},
+  {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: '6'},
+  {img: `images/profiles/Kacka.jpg`, name: 'Kačka', age: '17', distance: '13'},
   {img: `images/profiles/alo.jpeg`, name: 'Fernanlove', age: '40', distance: '11'},
   {img: `images/profiles/m&m.png`, name: 'Miss M&M', age: '23', distance: '5'},
   {img: `images/profiles/broly.png`, name: 'Broly', age: '31', distance: '13'},
