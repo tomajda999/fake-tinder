@@ -8,7 +8,9 @@ const profiles = [
   {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: '6'},
   {img: `images/profiles/Kacka.jpg`, name: 'Kateřina', age: '23', distance: '13'},
   {img: `images/profiles/Eli.jpg`, name: 'Eliška', age: '19', distance: '11'},
-  {img: `images/profiles/Katka.jpg`, name: 'Kačka', age: '23', distance: '5'},
+  {img: `images/profiles/Katka.jpg`, name: 'Kačka', age: '17', distance: '5'},
+  {img: `images/profiles/Paja.jpg`, name: 'Pavlína', age: '19', distance: '5'},
+  {img: `images/profiles/Helca.jpg`, name: 'Helga56', age: '56', distance: '5'},
 ]
 
 const frame = document.body.querySelector('.frame')
