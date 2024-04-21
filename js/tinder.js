@@ -4,12 +4,12 @@
 let imgCount = 0
 const appLink = 'tomajda999.github.io/fake-tinder'
 const profiles = [
-  {img: `images/profiles/Ada.jpg`, name: 'Áďa', age: '19', distance: '5km daleko'},
-  {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: '6'},
-  {img: `images/profiles/Kacka.jpg`, name: 'Kateřina', age: '23', distance: '13'},
-  {img: `images/profiles/Eli.jpg`, name: 'Eliška', age: '19', distance: '11'},
-  {img: `images/profiles/Katka.jpg`, name: 'Kačka', age: '17', distance: '5'},
-  {img: `images/profiles/Paja.jpg`, name: 'Pavlína', age: '19', distance: '5'},
+  {img: `images/profiles/Ada.jpg`, name: 'Áďa', age: '19', distance: '5 km daleko'},
+  {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: 'Watching PornHub'},
+  {img: `images/profiles/Kacka.jpg`, name: 'Kateřina', age: '23', distance: 'Pac a pusu'},
+  {img: `images/profiles/Eli.jpg`, name: 'Eliška', age: '19', distance: '11 km daleko'},
+  {img: `images/profiles/Katka.jpg`, name: 'Kačka', age: '16', distance: ''},
+  {img: `images/profiles/Paja.jpg`, name: 'Pavlína', age: '19', distance: ''},
   {img: `images/profiles/Helca.jpg`, name: 'Helga56', age: '56', distance: 'Za 5 korun'},
 ]
 
