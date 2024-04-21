@@ -4,13 +4,13 @@
 let imgCount = 0
 const appLink = 'tomajda999.github.io/fake-tinder'
 const profiles = [
-  {img: `images/profiles/Ada.jpg`, name: 'Áďa', age: '19', distance: '12'},
+  {img: `images/profiles/Ada.jpg`, name: 'Áďa', age: '19', distance: '5km daleko'},
   {img: `images/profiles/Adam.jpg`, name: 'Adam', age: '27', distance: '6'},
   {img: `images/profiles/Kacka.jpg`, name: 'Kateřina', age: '23', distance: '13'},
   {img: `images/profiles/Eli.jpg`, name: 'Eliška', age: '19', distance: '11'},
   {img: `images/profiles/Katka.jpg`, name: 'Kačka', age: '17', distance: '5'},
   {img: `images/profiles/Paja.jpg`, name: 'Pavlína', age: '19', distance: '5'},
-  {img: `images/profiles/Helca.jpg`, name: 'Helga56', age: '56', distance: '5'},
+  {img: `images/profiles/Helca.jpg`, name: 'Helga56', age: '56', distance: 'Za 5 korun'},
 ]
 
 const frame = document.body.querySelector('.frame')
@@ -49,7 +49,7 @@ function appendCard(profile) {
         ${profile.name === 'link' ? `<span><a href="javascript:void(0)" id="link" class="link">${appLink}<span></a>` : `<span>${profile.name}</span><span>${profile.age}</span>`}
       </div>
       <div class="info">
-        ${profile.name !== 'link' ? `${profile.distance} miles away` : ``}
+        ${profile.name !== 'link' ? `${profile.distance} ` : ``}
       </div>
     </div>
         `
